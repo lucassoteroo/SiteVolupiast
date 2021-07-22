@@ -1,0 +1,9 @@
+@import url(sobre-titulo.css);
+@import url(sobre-texto.css);
+@import url(quadro.css);
+@import url(quadro-titulo.css);
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}

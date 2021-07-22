@@ -1,0 +1,8 @@
+@import url(fotos-div.css);
+@import url(fotos-container.css);
+@import url(fotos_imagens.css);
+@import url(fotos-texto.css);
+.fotos {
+    display: flex;
+    flex-direction: column;
+}

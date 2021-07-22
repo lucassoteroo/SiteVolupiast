@@ -1,0 +1,9 @@
+.cabecalho-produtos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F5F5F5;
+    padding: 7px 0px 4px 0px;
+    margin-left: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+}
