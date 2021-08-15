@@ -45,6 +45,10 @@ header {
     padding-left: 10px;
 }
 
+.compra a img {
+    filter: invert(100%);
+}
+
 .banner img {
     width: 100%;
 }

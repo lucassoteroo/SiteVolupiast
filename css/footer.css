@@ -33,3 +33,7 @@ footer {
     color: #F2F2F2;
     padding-left: 10px;
 }
+
+.social a img {
+    filter: invert(100%);
+}
