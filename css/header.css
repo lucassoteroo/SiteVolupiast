@@ -1,0 +1,50 @@
+header {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.titulo {
+    margin: auto 0;
+}
+
+.titulo h1 {
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BF8D7A;
+    height: 50px;
+}
+
+.produtos {
+    margin: auto 0;
+    padding-left: 15px;
+}
+
+.produtos a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+
+.compra {
+    margin: auto 0;
+    padding-right: 15px;
+}
+
+.compra a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
