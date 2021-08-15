@@ -35,3 +35,67 @@ main {
 .sobre-conteudo p {
     font-size: .8rem;
 }
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.direita {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.esquerda img,
+.direita img {
+    width: 425px;
+}
+
+.esquerda p {
+    font-size: .9rem;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 25px 0px 25px 0px;
+}
+
+.direita p {
+    font-size: .9rem;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 25px 0px 25px 0px;
+}
+
+.container01 {
+    background-color: #a0a2a8;
+    margin: auto 0;
+    height: 60px;
+}
+
+.container02 {
+    background-color: #E3C140;
+    margin: auto 0;
+    height: 60px;
+}
+
+.container03 {
+    background-color: #CBDDEA;
+    margin: auto 0;
+    height: 60px;
+}
+
+.container04 {
+    background-color: #C6B97E;
+    margin: auto 0;
+    height: 60px;
+}
