@@ -10,7 +10,7 @@ main {
 }
 
 .sobre-conteudo {
-    width: 80%;
+    width: 65%;
     height: 300px;
     display: flex;
     flex-direction: column;
