@@ -1,17 +1,18 @@
-.parte-de-cima {
+.roupas {
     padding-top: 20px;
 }
 
-.parte-de-cima h3 {
+.roupas h3 {
     font-family: 'Georama', sans-serif;
 }
 
 .row {
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .card {
-    height: 125%;
+    height: 100%;
 }
 
 .card h6 {
