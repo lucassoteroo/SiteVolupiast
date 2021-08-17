@@ -1,0 +1,37 @@
+.parte-de-cima {
+    padding-top: 20px;
+}
+
+.parte-de-cima h3 {
+    font-family: 'Georama', sans-serif;
+}
+
+.row {
+    padding-top: 25px;
+}
+
+.card {
+    height: 125%;
+}
+
+.card h6 {
+    text-align: center;
+    font-size: 1.565rem;
+    font-family: 'Zen Loop', cursive;
+    font-weight: 600;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+}
+
+.card a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
