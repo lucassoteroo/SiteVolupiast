@@ -22,19 +22,19 @@ main {
 .sobre-titulo {
     background-color: #592E2E;
     width: 10%;
-    height: 22px;
+    height: 28px;
     margin: 0 auto;
 }
 
 .sobre-conteudo h3 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: #F2F2F2;
     font-family: 'Georama', sans-serif;
     font-style: italic;
 }
 
 .sobre-conteudo p {
-    font-size: .8rem;
+    font-size: 1.15rem;
 }
 
 .fotos {
@@ -60,7 +60,7 @@ main {
 }
 
 .esquerda p {
-    font-size: .9rem;
+    font-size: 1.25rem;
     font-family: 'Zen Loop', cursive;
     font-weight: bold;
     padding-left: 30px;
@@ -69,7 +69,7 @@ main {
 }
 
 .direita p {
-    font-size: .9rem;
+    font-size: 1.25rem;
     font-family: 'Zen Loop', cursive;
     font-weight: bold;
     padding-left: 30px;
