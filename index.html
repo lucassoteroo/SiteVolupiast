@@ -9,27 +9,28 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Volupiast</title>
 </head>
 
 <body>
     <header>
         <section class="navegacao">
-            <div class="logo">
-                <div>
-                    <img src="./img/home/logo-volupia.png" alt="">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="./img/home/logo-volupia.png" alt="" class="rounded-circle">
+                    </div>
+                    <div class="col-lg-7">
+                        <h1>Volupiast</h1>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="./produtos.html" target="blank">Produtos</a>
+                        <a href="./cadastro.html" target="blank">Cadastro</a>
+                        <a href="./carrinho.html" target="blank">Carrinho</a>
+                    </div>
                 </div>
             </div>
-            <div class="titulo">
-                <h1>Volupiast</h1>
-            </div>
-            <div class="compra">
-                <a href="./produtos.html" target="blank">Produtos</a>
-                <a href="./cadastro.html" target="blank">Cadastro</a>
-                <a href="./carrinho.html" target="blank">Carrinho</a>
-            </div>
-        </section>
-        <section>
             <div class="banner">
                 <img src="./img/home/banner-volupia.png" alt="" srcset="">
             </div>
@@ -75,12 +76,16 @@
     </main>
     <footer>
         <section class="rodape">
-            <div class="dev">
-                <a href="#">&copy; Lucas Sotero</a>
-            </div>
-            <div class="social">
-                <a href="#" target="blank"><img src="./img/home/wpp.png" alt=""></a>
-                <a href="https://www.instagram.com/volupiast/" target="blank"><img src="./img/home/insta.png" alt=""></a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <a href="#">&copy; Lucas Sotero</a>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="#" target="blank"><img src="./img/home/wpp.png" alt=""></a>
+                        <a href="https://www.instagram.com/volupiast/" target="blank"><img src="./img/home/insta.png" alt=""></a>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>

@@ -3,38 +3,34 @@ footer {
     width: 100%;
 }
 
-.rodape {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #BF8D7A;
-    height: 30px;
+footer .col-lg-10 {
+    text-align: left;
+    padding-left: 15px !important;
 }
 
-.dev {
+footer .col-lg-2 {
+    text-align: right;
+    padding-right: 15px !important;
+}
+
+footer .col-lg-2,
+footer .col-lg-10 {
     margin: auto 0;
-    padding-left: 15px;
+    padding: 5px 0;
 }
 
-.dev a {
+.rodape {
+    background-color: #BF8D7A;
+    height: 100%;
+}
+
+.rodape a {
     font-size: .8rem;
     text-decoration: none;
     color: #F2F2F2;
     list-style: none;
 }
 
-.social {
-    margin: auto 0;
-    padding-right: 15px;
-}
-
-.social a {
-    font-size: .8rem;
-    text-decoration: none;
-    color: #F2F2F2;
-    padding-left: 10px;
-}
-
-.social a img {
+.rodape img {
     filter: invert(100%);
 }

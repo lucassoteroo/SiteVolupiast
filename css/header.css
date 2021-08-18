@@ -3,52 +3,47 @@ header {
     width: 100%;
 }
 
-.logo {
-    padding: 10px 15px;
+header .col-lg-2 {
+    text-align: left;
+    padding-left: 15px !important;
 }
 
-.logo div {
+header .col-lg-3 {
+    text-align: right;
+    padding-right: 15px !important;
+}
+
+header .col-lg-7 {
+    text-align: center;
+}
+
+header .col-lg-2,
+header .col-lg-7,
+header .col-lg-3 {
+    margin: auto 0;
+    padding: 5px 0;
+}
+
+.navegacao img {
     width: 75px;
     height: 75px;
-    overflow: hidden;
-    border-radius: 50%;
 }
 
-.logo img {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.titulo {
-    margin: auto 0;
-}
-
-.titulo h1 {
+.navegacao h1 {
     color: #BF8D7A;
     font-weight: 600;
     font-size: 2rem;
 }
 
-.navegacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #fff;
-    height: 100%;
-}
-
-.compra {
-    margin: auto 0;
-    padding-right: 15px;
-}
-
-.compra a {
+.navegacao a {
+    text-align: right;
     text-decoration: none;
     color: #BF8D7A;
     font-size: 1.1rem;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .banner img {
     width: 100%;
+    height: 100%;
 }
