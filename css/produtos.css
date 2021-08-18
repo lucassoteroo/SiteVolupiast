@@ -49,3 +49,21 @@
     text-decoration: none;
     color: #000;
 }
+
+.card-body {
+    text-align: center;
+}
+
+button {
+    font-family: 'Georama', sans-serif;
+}
+
+.btn-secondary {
+    background-color: #A6654E !important;
+    border-color: #A6654E !important;
+}
+
+.btn-secondary:hover {
+    background-color: #D99B84 !important;
+    border-color: #D99B84 !important;
+}
