@@ -100,3 +100,9 @@ main {
     margin: auto 0;
     height: 60px;
 }
+
+@media (max-width: 768px) {
+    .esquerda {
+        flex-direction: column;
+    }
+}
