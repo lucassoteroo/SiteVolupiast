@@ -40,6 +40,7 @@ main {
 .fotos {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .esquerda {
@@ -104,5 +105,16 @@ main {
 @media (max-width: 768px) {
     .esquerda {
         flex-direction: column;
+    }
+    .direita {
+        flex-direction: column;
+    }
+    .esquerda img,
+    .direita img {
+        width: 335px;
+    }
+    .esquerda p,
+    .direita p {
+        text-align: center;
     }
 }
