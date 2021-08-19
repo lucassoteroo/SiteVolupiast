@@ -69,3 +69,25 @@ header .col-lg-3 {
         height: auto;
     }
 }
+
+@media (max-width: 576px) {
+    header .col-lg-2 {
+        visibility: visible;
+        width: 100%;
+        text-align: center;
+        margin: 9.5px 0;
+    }
+    header .col-lg-7 {
+        width: 100%;
+        margin-bottom: 9.5px;
+    }
+    header .col-lg-3 {
+        width: 100%;
+        padding-right: 0px !important;
+        margin-bottom: 9.5px;
+    }
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+}
