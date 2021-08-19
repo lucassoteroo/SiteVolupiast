@@ -103,9 +103,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    .esquerda {
-        flex-direction: column;
-    }
+    .esquerda,
     .direita {
         flex-direction: column;
     }
