@@ -44,6 +44,7 @@ main {
 }
 
 .esquerda {
+    width: 50%;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
@@ -106,13 +107,21 @@ main {
     .esquerda,
     .direita {
         flex-direction: column;
+        width: 50%;
     }
     .esquerda img,
     .direita img {
-        width: 335px;
+        width: 100%;
     }
     .esquerda p,
     .direita p {
         text-align: center;
+        font-size: 1.1rem;
+    }
+    .sobre-titulo {
+        width: 20%;
+    }
+    .sobre-conteudo p {
+        padding: 0 10px;
     }
 }
