@@ -34,3 +34,10 @@ footer .col-lg-10 {
 .rodape img {
     filter: invert(100%);
 }
+
+@media (max-width: 768px) {
+    footer .col-lg-10,
+    footer .col-lg-2 {
+        width: 50%;
+    }
+}
