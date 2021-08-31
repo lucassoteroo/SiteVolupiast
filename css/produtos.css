@@ -67,3 +67,17 @@ button {
     background-color: #D99B84 !important;
     border-color: #D99B84 !important;
 }
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-body,
+.modal-footer {
+    margin: 0 auto;
+}
+
+.modal-body th,
+.modal-body td {
+    padding: 0 5px;
+}
