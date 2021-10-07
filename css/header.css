@@ -43,6 +43,11 @@ header .col-lg-3 {
     padding-left: 5px;
 }
 
+.navegacao a:hover {
+    text-decoration: underline;
+    color: #BF8D7A;
+}
+
 .banner img {
     width: 100%;
     height: auto;
