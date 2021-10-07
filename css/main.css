@@ -63,7 +63,7 @@ main {
 
 .esquerda img,
 .direita img {
-    width: 425px;
+    width: 350px;
 }
 
 .esquerda p {
@@ -198,4 +198,11 @@ button {
 
 #modelId .modal-body {
     padding: 1rem 1rem 2rem 1rem !important;
+}
+
+#modelId h5 {
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 195px;
+    color: #BF8D7A;
 }
