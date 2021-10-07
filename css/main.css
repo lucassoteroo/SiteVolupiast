@@ -4,6 +4,11 @@ main {
     background-color: #F2F2F2;
 }
 
+.banner img {
+    padding: 0 12%;
+    background-color: #F2C7BD;
+}
+
 .sobre {
     text-align: center;
     padding-top: 20px;
