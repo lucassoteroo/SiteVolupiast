@@ -10,4 +10,10 @@ $(document).ready(function() {
             let elemento = '';
         })
     });
+
+    $('.btn-warning').on('click', function(event) {
+        event.preventDefault();
+        let nome = $('#nome').text();
+        console.log(nome);
+    })
 });
