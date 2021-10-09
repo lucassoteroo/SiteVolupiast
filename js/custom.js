@@ -13,7 +13,13 @@ $(document).ready(function() {
 
     $('.btn-warning').on('click', function(event) {
         event.preventDefault();
-        let nome = $('#nome').text();
-        console.log(nome);
+        let nomeId = $('.modal-title').text();
+        $('.btn-close').on('click', function(event) {
+            let nomeId = '';
+        })
+        console.log(nomeId);
+
+        // let nome = $('#nome').text();
+        // console.log(nome);
     })
 });
