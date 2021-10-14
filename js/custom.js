@@ -77,5 +77,50 @@ $(document).ready(function() {
         } else {
             alert("Produto não encontrado");
         }
+        alert('Produto adicionado ao carrinho');
+        $('.btn-danger').on('click', function() {
+            let elemento = $(this).attr('rel');
+            if (elemento == 'Camisa Volúpia') {
+                $(".carrinho").text('<h6>Produto Removido</h6>')
+            } else if (elemento == "Blusa Me") {
+                $("#nome").append("");
+                $("#preco").append("");
+                $("#tamanho").append("");
+            } else if (elemento == "Calça Cargo") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Short Malu") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Cropped Angry") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Top Mazi") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Top Gi") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Top Malu") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Conjunto Gi") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else if (elemento == "Vestido Soft") {
+                $("#nome").html("");
+                $("#preco").html("");
+                $("#tamanho").html("");
+            } else {
+                alert("Produto não encontrado");
+            }
+        })
     })
 });
