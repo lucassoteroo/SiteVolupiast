@@ -82,7 +82,7 @@
         </div>
         <div id="carrinho" class="visually-hidden">
             <section class="carrinho">
-                <h6 id="nome"></h6>
+                <h6></h6>
                 <p id="preco"></p>
                 <p id="tamanho"></p>
             </section>
@@ -402,7 +402,6 @@
         </section>
     </footer>
     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -447,8 +446,8 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <a type="button" class="btn btn-warning" rel="Camisa Volúpia">Adiconar ao carrinho</a>
-                    <a type="button" class="btn btn-danger" rel="Camisa Volúpia">Remover do carrinho</a>
+                    <a type="button" class="btn btn-warning" onclick="adicionarCarrinho()">Adiconar ao carrinho</a>
+                    <a type="button" class="btn btn-danger" onclick="removerCarrinho()">Remover do carrinho</a>
                 </div>
             </div>
         </div>
@@ -457,7 +456,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nome">Blusa Me</h5>
+                    <h5 class="modal-title">Blusa Me</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -482,8 +481,8 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <a type="button" class="btn btn-warning" class="adicionar" rel="Blusa Me">Adiconar ao carrinho</a>
-                    <a type="button" class="btn btn-danger" rel="Blusa Me">Remover do carrinho</a>
+                    <a type="button" class="btn btn-warning" onclick="adicionarCarrinho()">Adiconar ao carrinho</a>
+                    <a type="button" class="btn btn-danger" onclick="removerCarrinho()">Remover do carrinho</a>
                 </div>
             </div>
         </div>
@@ -492,7 +491,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeCalcaCargo">Calça Cargo</h5>
+                    <h5 class="modal-title">Calça Cargo</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -531,7 +530,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeShortMalu">Short Malu</h5>
+                    <h5 class="modal-title">Short Malu</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -570,7 +569,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeCroppedAngry">Cropped Angry</h5>
+                    <h5 class="modal-title">Cropped Angry</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -609,7 +608,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeTopMazi">Top Mazi</h5>
+                    <h5 class="modal-title">Top Mazi</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -640,7 +639,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeTopGi">Top Gi</h5>
+                    <h5 class="modal-title">Top Gi</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -675,7 +674,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeTopMalu">Top Malu</h5>
+                    <h5 class="modal-title">Top Malu</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -714,7 +713,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeConjuntoGi">Conjunto Gi</h5>
+                    <h5 class="modal-title">Conjunto Gi</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -749,7 +748,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="nomeVestidoSoft">Vestido Soft</h5>
+                    <h5 class="modal-title">Vestido Soft</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -788,7 +787,8 @@
     <script src="./libs/JQuery/jquery-3.6.0.min.js"></script>
     <script src="./libs/Bootstrap/bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
     <script src="./libs/Owl/js/owl.js"></script>
-    <script src="./js/custom.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/eventos.js"></script>
 </body>
 
 </html>
