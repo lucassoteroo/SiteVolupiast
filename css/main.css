@@ -113,12 +113,14 @@ main {
     padding-bottom: 30px;
 }
 
-.roupas .secao {
+.roupas .secao,
+.carrinho .secao {
     background-color: #BF8D7A;
     margin-bottom: 40px;
 }
 
-.roupas h1 {
+.roupas h1,
+.carrinho h1 {
     font-family: 'Zen Loop', cursive;
     font-weight: bold;
     color: #F2F2F2;
