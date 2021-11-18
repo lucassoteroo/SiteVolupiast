@@ -43,40 +43,83 @@ var roupas = [
     }
 ]
 
+
 $(document).ready(function() {
     $('.btn-warning').on('click', function(event) {
         event.preventDefault();
+
+        function camisaVolupia() {
+            $('#produto').html(roupas[0].nome);
+            $('#preco').html(roupas[0].preço);
+        }
+
+        function blusaMe() {
+            $('#produto').html(roupas[1].nome);
+            $('#preco').html(roupas[1].preço);
+        }
+
+        function calcaCargo() {
+            $('#produto').html(roupas[2].nome);
+            $('#preco').html(roupas[2].preço);
+        }
+
+        function shortMalu() {
+            $('#produto').html(roupas[3].nome);
+            $('#preco').html(roupas[3].preço);
+        }
+
+        function croppedAngry() {
+            $('#produto').html(roupas[4].nome);
+            $('#preco').html(roupas[4].preço);
+        }
+
+        function topMazi() {
+            $('#produto').html(roupas[5].nome);
+            $('#preco').html(roupas[5].preço);
+        }
+
+        function topGi() {
+            $('#produto').html(roupas[6].nome);
+            $('#preco').html(roupas[6].preço);
+        }
+
+        function topMalu() {
+            $('#produto').html(roupas[7].nome);
+            $('#preco').html(roupas[7].preço);
+        }
+
+        function conjGi() {
+            $('#produto').html(roupas[8].nome);
+            $('#preco').html(roupas[8].preço);
+        }
+
+        function vestidoSoft() {
+            $('#produto').html(roupas[9].nome);
+            $('#preco').html(roupas[9].preço);
+        }
+
         let e = $(this).attr('rel');
         if (e == 1) {
-            console.log(roupas[0].nome);
-            console.log(roupas[0].preço);
+            camisaVolupia();
         } else if (e == 2) {
-            console.log(roupas[1].nome);
-            console.log(roupas[1].preço);
+            blusaMe();
         } else if (e == 3) {
-            console.log(roupas[2].nome);
-            console.log(roupas[2].preço);
+            calcaCargo();
         } else if (e == 4) {
-            console.log(roupas[3].nome);
-            console.log(roupas[3].preço);
+            shortMalu();
         } else if (e == 5) {
-            console.log(roupas[4].nome);
-            console.log(roupas[4].preço);
+            croppedAngry();
         } else if (e == 6) {
-            console.log(roupas[5].nome);
-            console.log(roupas[5].preço);
+            topMazi();
         } else if (e == 7) {
-            console.log(roupas[6].nome);
-            console.log(roupas[6].preço);
+            topGi();
         } else if (e == 8) {
-            console.log(roupas[7].nome);
-            console.log(roupas[7].preço);
+            topMalu();
         } else if (e == 9) {
-            console.log(roupas[8].nome);
-            console.log(roupas[8].preço);
+            conjGi();
         } else if (e == 10) {
-            console.log(roupas[9].nome);
-            console.log(roupas[9].preço);
+            vestidoSoft();
         }
+
     })
 })
