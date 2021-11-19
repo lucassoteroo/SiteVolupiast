@@ -59,9 +59,11 @@ $(document).ready(function() {
         if (e == 1) {
             roupas.push(camisaVolupia);
             console.log(roupas)
+            texto(camisaVolupia);
         } else if (e == 2) {
             roupas.push(blusaMe);
             console.log(roupas)
+            texto(blusaMe);
         } else if (e == 3) {
             roupas.push(calcaCargo);
         } else if (e == 4) {
@@ -78,6 +80,11 @@ $(document).ready(function() {
             roupas.push(conjGi);
         } else if (e == 10) {
             roupas.push(vestidoSoft);
+        }
+
+        function texto(peca) {
+            var elemento = "<p>" + peca.nome + "</p>";
+            $('#carrinho').html(elemento);
         }
     })
 })
